@@ -1,10 +1,10 @@
 window.onload = function () {
     //Declared all images that will be randomly choosed and displayed.
-    var random_image = ["/images/crystal1.jpg", "/images/crystal2.jpg", "/images/crystal3.jpg", "/images/crystal4.jpg",
-        "/images/crystal5.jpg", "/images/crystal6.jpg", "/images/crystal7.jpg", "/images/crystal8.jpg",
-        "/images/crystal9.jpg", "/images/crystal10.jpg", "/images/crystal11.jpg", "/images/crystal12.jpg",
-        "/images/crystal13.jpg", "/images/crystal14.jpg", "/images/crystal15.jpg", "/images/crystal16.jpg",
-        "/images/crystal7.jpg", "/images/crystal18.jpg", "/images/crystal19.jpg", "/images/crystal20.jpg"
+    var random_image = ["/unit-4-jquery-game/images/crystal1.jpg", "/unit-4-jquery-game/images/crystal2.jpg", "/unit-4-jquery-game/images/crystal3.jpg", "/unit-4-jquery-game/images/crystal4.jpg",
+        "/unit-4-jquery-game/images/crystal5.jpg", "/unit-4-jquery-game/images/crystal6.jpg", "/unit-4-jquery-game/images/crystal7.jpg", "/unit-4-jquery-game/images/crystal8.jpg",
+        "/unit-4-jquery-game/images/crystal9.jpg", "/unit-4-jquery-game/images/crystal10.jpg", "/unit-4-jquery-game/images/crystal11.jpg", "/unit-4-jquery-game/images/crystal12.jpg",
+        "/unit-4-jquery-game/images/crystal13.jpg", "/unit-4-jquery-game/images/crystal14.jpg", "/unit-4-jquery-game/images/crystal15.jpg", "/unit-4-jquery-game/images/crystal16.jpg",
+        "/unit-4-jquery-game/images/crystal7.jpg", "/unit-4-jquery-game/images/crystal18.jpg", "/unit-4-jquery-game/images/crystal19.jpg", "/unit-4-jquery-game/images/crystal20.jpg"
     ];
     var allvalues = [];
     let wintarget;
@@ -17,7 +17,7 @@ window.onload = function () {
         wintarget = Math.floor((Math.random() * 100) + 1);
         document.getElementById('win').innerHTML = wintarget;
     }
-
+    
     //function calling
     generatewintarget();
 
