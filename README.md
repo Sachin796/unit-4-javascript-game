@@ -1,4 +1,4 @@
-# unit-4-jquery-game
+# unit-4-javascript-game
 
 The game is called Crystal Collector game.
 The execution of the game is as follows...
